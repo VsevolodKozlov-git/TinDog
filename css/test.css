@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(to right, blue, red);
+  padding: 0 20%;
+}
+
+section, div {
+
+}
+
+div {
+  overflow: hidden;
+  padding-top: 100%;
+  margin-top: -100%;
+  transform: skew(0deg, -10deg);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  transform: skew(0deg, 10deg) rotate(45deg);
+}

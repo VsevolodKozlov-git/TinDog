@@ -1,0 +1,209 @@
+/* stylelint-disable selector-no-id, declaration-no-important */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading {
+  font-size: 3rem;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 3rem 15%;
+}
+
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+/* title */
+
+
+#title {
+  text-align: left;
+}
+@media (max-width: 992px){
+  #title {
+    text-align: center;
+  }
+}
+
+#title .container-fluid {
+  padding: 0.8rem 15% 3rem;
+
+}
+
+
+/* navbar */
+
+.navbar{
+  margin-bottom: 50px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+.donwload-btn {
+  margin: 5% 3% 5% 0;
+}
+/* Image css */
+
+
+.iphone-img {
+  transform: rotate(25deg);
+  height: 600px;
+  position: absolute;
+}
+
+
+@media (max-width: 992px) {
+  .iphone-img {
+    height: 500px;
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* Features settings */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-icon {
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  margin-top: 20px;
+}
+
+.feature-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+
+@media (min-width: 992px) {
+    .pt-lg-6,
+    .py-lg-6 {
+      padding-top: 6rem !important;
+    }
+
+    .pr-lg-6,
+    .px-lg-6 {
+      padding-right: 6rem !important;
+    }
+
+    .pb-lg-6,
+    .py-lg-6 {
+      padding-bottom: 6rem !important;
+    }
+
+    .pl-lg-6,
+    .px-lg-6 {
+      padding-left: 6rem !important;
+    }
+}
+
+
+/* Testimonials section */
+
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 1.7rem;
+}
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+}
+
+
+#press{
+  background-color: #ef8172;
+}
+
+.press-img {
+  width: 15%;
+  margin:  20px 20px 50px;
+}
+
+/* Pricing section  */
+
+
+.card-container{
+  padding: 0px 20px 5%;
+}
+
+
+
+.card {
+  padding: 0;
+}
+
+.price-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.card-price{
+  font-size: 1.7rem;
+}
+.card-btn {
+  width: 80%;
+}
+
+
+/* cta */
+
+
+/* footer */
+
+.footer-icon {
+  color: black;
+  margin: 0px 8px;
+}
+
+.footer-p {
+  margin: 0px;
+}
+
+
+/* stylelint-enable selector-no-id, declaration-no-important */
